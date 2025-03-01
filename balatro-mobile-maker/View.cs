@@ -286,7 +286,7 @@ internal class View
                 useTool(ProcessTools.ADB, "shell mkdir /data/local/tmp/balatro");
                 useTool(ProcessTools.ADB, "shell mkdir /data/local/tmp/balatro/files");
                 useTool(ProcessTools.ADB, "shell mkdir /data/local/tmp/balatro/files/save");
-                useTool(ProcessTools.ADB, "shell mkdir /data/local/tmp/balatro/balatro/files/save/game");
+                useTool(ProcessTools.ADB, "shell mkdir /data/local/tmp/balatro/files/save/game");
                 useTool(ProcessTools.ADB, "push \"" + Platform.getGameSaveLocation() + "\\.\" /data/local/tmp/balatro/files/save/game");
                 useTool(ProcessTools.ADB, "shell am force-stop com.unofficial.balatro");
                 useTool(ProcessTools.ADB, "shell run-as com.unofficial.balatro cp -r /data/local/tmp/balatro/files .");
