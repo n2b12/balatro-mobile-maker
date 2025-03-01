@@ -18,7 +18,7 @@ internal class View
     private bool _androidBuild;
     private bool _iosBuild;
 
-    private static bool _cleaup;
+    private static bool _cleanup;
 
     static bool gameProvided;
 
@@ -30,7 +30,7 @@ internal class View
         Log("====Balatro APK Maker====\n");
 
         //Initial prompts
-        _cleaup = AskQuestion("Would you like to automatically clean up once complete?");
+        _cleanup = AskQuestion("Would you like to automatically clean up once complete?");
         _verboseMode = AskQuestion("Would you like to enable extra logging information?");
 
         //If balatro.apk or balatro.ipa already exists, ask before beginning build process again
@@ -262,7 +262,7 @@ internal class View
         {
             #region Android options
             #region Auto-install
-            if (fileExists("balatro.apk") && AskQuestion("Would you like to automaticaly install balatro.apk on your Android device?"))
+            if (fileExists("balatro.apk") && AskQuestion("Would you like to automatically install balatro.apk on your Android device?"))
             {
                 PrepareAndroidPlatformTools();
 
@@ -356,7 +356,7 @@ internal class View
 
     public static void Cleanup()
     {
-        if (_cleaup)
+        if (_cleanup)
         {
             Log("Deleting temporary files...");
 

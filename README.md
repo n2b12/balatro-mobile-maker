@@ -4,7 +4,7 @@ The goal of this project is to allow *Balatro* fans to play *Balatro* on their m
 
 Mods are not _officially_ supported, [but they will probably work if you transfer your saves from a modded system](https://github.com/blake502/balatro-mobile-maker/issues/11).
 
-Keep in mind that Balatro Mobile Maker is still in beta! Please report any bugs you encouter in the [issues section](https://github.com/blake502/balatro-mobile-maker/issues). If you encounter bugs with the latest release, try the previous release.
+Keep in mind that Balatro Mobile Maker is still in beta! Please report any bugs you encounter in the [issues section](https://github.com/blake502/balatro-mobile-maker/issues). If you encounter bugs with the latest release, try the previous release.
 
 ## Quick Start Guide
 Please review the **Notes** section before you begin.
@@ -37,13 +37,13 @@ Please review the **Notes** section before you begin.
  ### For iOS:
  - This script will automatically download [Balatro-IPA-Base](https://github.com/blake502/balatro-mobile-maker/releases/tag/Additional-Tools-1.0)
 
- ## Recogition (in no particular order)
+ ## Recognition (in no particular order)
  - [Every contributor](https://github.com/blake502/balatro-mobile-maker/graphs/contributors)
  - Developers of [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
  - Developers of [LÖVE](https://love2d.org/)
  - Developers of [7-Zip](https://www.7-zip.org/)
  - Developers of [APKTool](https://apktool.org/)
- - Delevopers of [Balatro](https://www.playbalatro.com/)
+ - Developers of [Balatro](https://www.playbalatro.com/)
 
  ## License
  - [7-Zip](https://github.com/ip7z/7zip/blob/main/DOC/License.txt) is licensed under the GNU LGPL license.

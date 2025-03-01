@@ -56,7 +56,7 @@ internal class Patching
     // This is hideous, but it works.
     public static void Begin()
     {
-        Log("Applying mobile compatibilty patch...");
+        Log("Applying mobile compatibility patch...");
         //Android platform support
         ApplyPatch("globals.lua", "loadstring", @"    -- Removed 'loadstring' line which generated lua code that exited upon starting on mobile
     if love.system.getOS() == 'Android' or love.system.getOS() == 'iOS' then
